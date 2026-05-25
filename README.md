@@ -1,6 +1,6 @@
 # Tent Parts Generator
 
-A lightweight web app for generating tent assembly parts lists for festival and event setups.
+A lightweight web app for generating tent assembly parts lists for the volunteers of the Site Production crew at the Edmonton Folk Music Festival.
 
 ## Features
 
