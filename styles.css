@@ -1,0 +1,189 @@
+body {
+    margin: 5% auto;
+    background: #f2f2f2;
+    color: #444444;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    text-shadow: 0 1px 0 #ffffff;
+    max-width: 73%;
+}
+
+code {
+    background: white;
+}
+
+a {
+    border-bottom: 1px solid #444444;
+    color: #444444;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 0;
+}
+
+.theme-toggle {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 90%; /* Ensure the container is responsive */
+}
+
+.logo {
+    display: block; /* Ensures it's treated as a block-level element */
+    max-width: 100%; /* Ensures the logo stays within the container width */
+    height: auto;
+    margin: 0 auto 20px auto; /* Centers the logo horizontally and adds bottom margin */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.tent-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.tent {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between; /* Ensure elements are spaced appropriately */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.tent label {
+    flex: 1; /* Allow the label to take up space */
+    min-width: 100px; /* Ensure a minimum width for labels */
+    text-align: left;
+}
+
+.tent input {
+    width: 50px; /* Set a fixed width for input fields */
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #444444;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+.table-responsive {
+    overflow-x: auto; /* Enable horizontal scrolling for tables on small screens */
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    white-space: nowrap; /* Prevent text from wrapping awkwardly */
+    font-size: 14px; /* Adjust font size for better fit */
+}
+
+#partsList {
+    margin-top: 20px;
+}
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark-theme .container {
+    background-color: #333333;
+}
+
+.dark-theme button {
+    background-color: #1a73e8;
+}
+
+.dark-theme button:hover {
+    background-color: #165abb;
+}
+
+.dark-theme table, .dark-theme th, .dark-theme td {
+    border-color: #555555;
+}
+
+/* Image Overlay and Large View */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark translucent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.large-image-container {
+    background-color: #f2f2f2; /* Softer light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    max-width: 95%; /* Max width of the container */
+    max-height: 95%; /* Max height of the container */
+}
+
+.large-image {
+    width: 100%; /* Make the image fill the container */
+    height: auto;
+    display: block;
+}
+
+.thumbnail {
+    width: 50px; /* Adjust the size of the thumbnail */
+    height: auto;
+    cursor: pointer;
+}
+
+.tooltip {
+    border-bottom: 1px dotted #444444; /* Dotted underline to signal interactivity */
+    cursor: help; /* Change cursor to a help icon to indicate a tooltip */
+}
+
+.image-description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #444444; /* Matches the main text color */
+    text-align: center;
+}
+
