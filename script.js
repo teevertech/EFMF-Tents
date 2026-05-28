@@ -12,6 +12,13 @@ const catalog = {
     eveTubeSmall:     { item: '1-03', name: "5'0\" Eve Tube",           category: 'structure',  description: "5'0\" eve tube",                   image: 'images/parts/evetubesmall.png' },
     centerPole:       { item: '1-04', name: 'Centre Pole',              category: 'structure',  description: 'Makes the tent rigid',             image: 'images/parts/centrepole.png' },
 
+    // 2. Canopy
+    canopy10x10:      { item: '2-01', name: "10' x 10' Canopy",        category: 'canopy',     description: 'Vinyl canopy that provides shade', image: 'images/parts/canopy.png' },
+    canopy10x20:      { item: '2-02', name: "10' x 20' Canopy",        category: 'canopy',     description: 'Vinyl canopy that provides shade', image: 'images/parts/canopy.png' },
+    canopy20x20:      { item: '2-03', name: "20' x 20' Canopy",        category: 'canopy',     description: 'Vinyl canopy that provides shade', image: 'images/parts/canopy.png' },
+    canopy20x30:      { item: '2-04', name: "20' x 30' Canopy",        category: 'canopy',     description: 'Vinyl canopy that provides shade', image: 'images/parts/canopy.png' },
+    canopy20x40:      { item: '2-05', name: "20' x 40' Canopy",        category: 'canopy',     description: 'Vinyl canopy that provides shade', image: 'images/parts/canopy.png' },
+
     // 2. Connectors
     corner:           { item: '2-01', name: 'Corner Joint',            category: 'connectors', description: 'Connects eve tubes to legs',       image: 'images/parts/cornerjoint.png' },
     teeConnector:     { item: '2-02', name: 'Tee Connector',           category: 'connectors', description: 'Connects eve tubes to legs',       image: 'images/parts/cornerjoint.png' },
@@ -19,17 +26,17 @@ const catalog = {
     crossJoint:       { item: '2-04', name: '4-way Cross Joint',       category: 'connectors', description: 'Connects eve tubes to legs',       image: 'images/parts/crossjoint.png' },
 
     // 3. Hardware
-    groundStake:      { item: '3-01', name: 'Ground Stakes',                category: 'hardware',   description: 'Secures tent to the ground',        image: 'images/parts/groundstake.png' },
-    DClip:            { item: '3-02', name: 'D-Clip',                       category: 'hardware',   description: 'Secures tent pieces to each other', image: 'images/parts/dclip.png' },
-    wallCableGreen:   { item: '3-03', name: 'Wall Cables (Green)',          category: 'hardware',   description: 'Green ends',                        image: 'images/parts/legcable.png' },
-    wallCableYellow:  { item: '3-04', name: 'Wall Cables (Yellow)',         category: 'hardware',   description: 'Yellow ends',                       image: 'images/parts/legcable.png' },
-    wallCableBlack:   { item: '3-05', name: 'Wall Cables (Black)',          category: 'hardware',   description: 'Black ends',                        image: 'images/parts/legcable.png' },
-    legCable:         { item: '3-06', name: 'Leg Cables',                   category: 'hardware',   description: 'Protective outer layer',            image: 'images/parts/legcable.png' },
-    crossCableGreen:  { item: '3-07', name: 'Cross Cables (Green)',         category: 'hardware',   description: 'Green ends',                        image: 'images/parts/crosscable.png' },
-    crossCableSilver: { item: '3-08', name: 'Cross Cables (Silver)',        category: 'hardware',   description: 'Silver ends',                       image: 'images/parts/crosscable.png' },
-    crossCableRed:    { item: '3-09', name: 'Cross Cables (Reddish Brown)', category: 'hardware',   description: 'Reddish brown ends',                image: 'images/parts/crosscable.png' },
-    crossCable:       { item: '3-10', name: 'Cross Cables',                 category: 'hardware',   description: 'Provides cross tension',            image: 'images/parts/crosscable.png' },
-    crossCableYellow: { item: '3-11', name: 'Cross Cables (Yellow)',        category: 'hardware',   description: 'Yellow ends',                       image: 'images/parts/crosscable.png' },
+    groundStake:      { item: '3-01', name: 'Ground Stakes',           category: 'hardware',   description: 'Secures tent to the ground',       image: 'images/parts/groundstake.png' },
+    DClip:            { item: '3-02', name: 'D-Clip',                  category: 'hardware',   description: 'Secures tent pieces to each other', image: 'images/parts/dclip.png' },
+    wallCableGreen:   { item: '3-03', name: 'Wall Cables (Green)',      category: 'hardware',   description: 'Green ends',                       image: 'images/parts/legcable.png' },
+    wallCableYellow:  { item: '3-04', name: 'Wall Cables (Yellow)',     category: 'hardware',   description: 'Yellow ends',                      image: 'images/parts/legcable.png' },
+    wallCableBlack:   { item: '3-05', name: 'Wall Cables (Black)',      category: 'hardware',   description: 'Black ends',                       image: 'images/parts/legcable.png' },
+    legCable:         { item: '3-06', name: 'Leg Cables',              category: 'hardware',   description: 'Protective outer layer',           image: 'images/parts/legcable.png' },
+    crossCableGreen:  { item: '3-07', name: 'Cross Cables (Green)',     category: 'hardware',   description: 'Green ends',                       image: 'images/parts/crosscable.png' },
+    crossCableSilver: { item: '3-08', name: 'Cross Cables (Silver)',    category: 'hardware',   description: 'Silver ends',                      image: 'images/parts/crosscable.png' },
+    crossCableRed:    { item: '3-09', name: 'Cross Cables (Reddish Brown)', category: 'hardware', description: 'Reddish brown ends',            image: 'images/parts/crosscable.png' },
+    crossCable:       { item: '3-10', name: 'Cross Cables',            category: 'hardware',   description: 'Provides cross tension',           image: 'images/parts/crosscable.png' },
+    crossCableYellow: { item: '3-11', name: 'Cross Cables (Yellow)',    category: 'hardware',   description: 'Yellow ends',                      image: 'images/parts/crosscable.png' },
 
     // 4. Canopy
     canopy10x10:      { item: '4-01', name: "10' x 10' Canopy",        category: 'canopy',     description: 'Vinyl canopy that provides shade', image: 'images/parts/canopy.png' },
@@ -168,16 +175,15 @@ function generatePartsList() {
 }
 
 function generateTable(grouped) {
-    let table = "<div class='table-responsive'><table><tr><th>Item</th><th>Image</th><th>Part</th><th>Qty</th></tr>";
+    let table = "<div class='table-responsive'><table><tr><th>Image</th><th>Part</th><th>Qty</th></tr>";
     for (const cat of categories) {
         const parts = grouped[cat.id];
         if (!parts || parts.length === 0) continue;
         const subtotal = parts.reduce((sum, { qty }) => sum + qty, 0);
-        table += `<tr class="category-header"><td colspan="3">${cat.number}. ${cat.label}</td><td class="category-subtotal">${subtotal}</td></tr>`;
+        table += `<tr class="category-header"><td colspan="2">${cat.number}. ${cat.label}</td><td class="category-subtotal">${subtotal}</td></tr>`;
         for (const { qty, part } of parts) {
             const escapedDesc = part.description.replace(/'/g, "\\'").replace(/"/g, '\\"');
             table += `<tr>
-                <td class="item-num">${part.item}</td>
                 <td><img src="${part.image}" alt="${part.name}" class="thumbnail" onclick="showImage('${part.image}', '${escapedDesc}')"></td>
                 <td>${part.name}</td>
                 <td>${qty}</td>

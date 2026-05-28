@@ -34,7 +34,7 @@ a:hover {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     width: 90%; /* Ensure the container is responsive */
 }
@@ -110,8 +110,12 @@ th, td {
     padding: 10px;
     border: 1px solid #ccc;
     text-align: left;
-    white-space: nowrap; /* Prevent text from wrapping awkwardly */
-    font-size: 14px; /* Adjust font size for better fit */
+    font-size: 14px;
+}
+
+td:first-child, td:last-child {
+    white-space: nowrap;
+    width: 1%;
 }
 
 #partsList {
@@ -207,18 +211,6 @@ body.dark-theme {
 .category-subtotal {
     text-align: right;
     font-variant-numeric: tabular-nums;
-}
-
-/* Item number column */
-.item-num {
-    color: #888;
-    font-size: 12px;
-    font-variant-numeric: tabular-nums;
-    white-space: nowrap;
-}
-
-.dark-theme .item-num {
-    color: #999;
 }
 
 /* Active tent highlight */
