@@ -22,29 +22,10 @@
             <img src="images/efmf-logo.png" alt="Website Logo" class="logo" />
             <h1>Tent Parts Generator</h1>
             <div class="tent-container">
-                <div class="tent">
-                    <label for="tent10x10">10' x 10':</label>
-                    <input type="number" id="tent10x10" value="0" min="0" />
-                    <button onclick="increment('tent10x10')">+</button>
-                    <button onclick="decrement('tent10x10')">-</button>
-                </div>
-                <div class="tent">
-                    <label for="tent10x20">10' x 20':</label>
-                    <input type="number" id="tent10x20" value="0" min="0" />
-                    <button onclick="increment('tent10x20')">+</button>
-                    <button onclick="decrement('tent10x20')">-</button>
-                </div>
-                <div class="tent">
-                    <label for="tent20x30">20' x 30':</label>
-                    <input type="number" id="tent20x30" value="0" min="0" />
-                    <button onclick="increment('tent20x30')">+</button>
-                    <button onclick="decrement('tent20x30')">-</button>
-                </div>
+                <!-- Populated dynamically from tents object in script.js -->
             </div>
             <div class="button-container">
-                <button onclick="generatePartsList()">
-                    Generate Parts List
-                </button>
+                <button onclick="generatePartsList()">Generate Parts List</button>
                 <button onclick="resetInputs()">Reset</button>
             </div>
             <div id="partsList"></div>

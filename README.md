@@ -8,6 +8,7 @@ A lightweight web app for generating tent assembly parts lists for the volunteer
 - Supports:
   - 10' x 10'
   - 10' x 20'
+  - 20' x 20'
   - 20' x 30'
 - Increment/decrement controls for fast quantity entry
 - Dark mode toggle (with system preference detection and local storage persistence)
@@ -17,17 +18,11 @@ A lightweight web app for generating tent assembly parts lists for the volunteer
 
 ## Purpose
 
-This tool is designed to help event crews quickly calculate the parts needed for assembling tents at festivals, fairs, and outdoor events.
-
-## Tech Stack
-
-- HTML5
-- Vanilla JavaScript
-- CSS3
+This tool is designed to help Site Production tent building crews to get accurate part counts when picking the pieces up at the tent boneyards. assembling tents at
 
 ## Usage
 
-The app is hosted on a VPS and accessed via browser on a smartphone in the field.
+The site is meant to be easily hosted on a VPS and accessed by the field users via browser on a smartphone.
 
 1. Navigate to the site URL on your phone
 2. Enter the number of each tent size needed using the `+` / `-` buttons
@@ -51,7 +46,3 @@ The app is fully static — just serve the project directory from any web server
     └── tents/       # Tent thumbnail images
     
 ```
-
-## Parts Data
-
-Parts lists are defined in `script.js` and include components such as canopies, legs, corner joints, eve tubes, centre poles, cables, ground stakes, straight joiners, cross joints, and D-clips — with quantities automatically scaled based on the number of tents entered.

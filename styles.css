@@ -187,3 +187,55 @@ body.dark-theme {
     text-align: center;
 }
 
+
+/* Category header rows */
+.category-header td {
+    background-color: #d8d8d8;
+    color: #222;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 6px 10px;
+}
+
+.dark-theme .category-header td {
+    background-color: #4a4a4a;
+    color: #ccc;
+}
+
+.category-subtotal {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Item number column */
+.item-num {
+    color: #888;
+    font-size: 12px;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.dark-theme .item-num {
+    color: #999;
+}
+
+/* Active tent highlight */
+.tent-active label {
+    font-weight: bold;
+    color: #2a7a2a;
+}
+
+.dark-theme .tent-active label {
+    color: #6abf6a;
+}
+
+.tent-active input {
+    border: 1px solid #2a7a2a;
+    outline: none;
+}
+
+.dark-theme .tent-active input {
+    border: 1px solid #6abf6a;
+}
